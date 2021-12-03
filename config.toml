@@ -1,0 +1,32 @@
+baseURL = "https://natecrafts.com/"
+locale = 'en-us'
+title = 'Nhat Nguyen'
+
+[params]
+  mainSections = ["posts"]
+
+[params.author]
+  name = "Nhat Nguyen"
+
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "About"
+  weight = 20
+  identifier = "about"
+  url = "/about/"
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+
+[taxonomies]
+tag = "tags"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
